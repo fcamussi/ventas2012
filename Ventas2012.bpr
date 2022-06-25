@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="Ventas2012.exe"/>
+    <OBJFILES value="Ventas2012.obj basedatos.obj principal.obj archivoclientes.obj 
+      archivoproductos.obj registrodocumentos.obj buscarclientes.obj 
+      buscarproductos.obj dialogocliente.obj dialogoproducto.obj 
+      itemsclientes.obj itemsproductos.obj seleccionarcliente.obj 
+      seleccionarproducto.obj facturacion.obj cuentacorriente.obj 
+      configuracion.obj numeracion.obj saldos.obj auxiliar.obj 
+      registroventasdiario.obj registroventasmensual.obj registroventasanual.obj 
+      mensaje.obj impresion.obj Identificacion.obj registroproductosdiario.obj 
+      registroproductosmensual.obj registroproductosanual.obj 
+      registroproductosstock.obj registrokilogramosmensual.obj 
+      seleccionarperiodo.obj AFIP.obj dialogoafip.obj"/>
+    <RESFILES value="Ventas2012.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) basedatos.dfm principal.dfm archivoclientes.dfm 
+      archivoproductos.dfm registrodocumentos.dfm buscarclientes.dfm 
+      buscarproductos.dfm dialogocliente.dfm dialogoproducto.dfm 
+      itemsclientes.dfm itemsproductos.dfm seleccionarcliente.dfm 
+      seleccionarproducto.dfm facturacion.dfm cuentacorriente.dfm 
+      configuracion.dfm saldos.dfm registroventasdiario.dfm 
+      registroventasmensual.dfm registroventasanual.dfm mensaje.dfm 
+      impresion.dfm Identificacion.dfm registroproductosdiario.dfm 
+      registroproductosmensual.dfm registroproductosanual.dfm 
+      registroproductosstock.dfm registrokilogramosmensual.dfm 
+      seleccionarperiodo.dfm dialogoafip.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="visualclx.lib B305_r61.lib vclx.lib qrpt.lib vcldb.lib bdertl.lib 
+      dbrtl.lib rtl.lib vcl.lib"/>
+    <SPARELIBS value="vcl.lib rtl.lib dbrtl.lib bdertl.lib vcldb.lib qrpt.lib vclx.lib 
+      B305_r61.lib visualclx.lib"/>
+    <PACKAGES value="vcl.bpi rtl.bpi dbrtl.bpi adortl.bpi vcldb.bpi vclx.bpi bdertl.bpi 
+      vcldbx.bpi ibxpress.bpi dsnap.bpi cds.bpi bdecds.bpi qrpt.bpi teeui.bpi 
+      teedb.bpi tee.bpi dss.bpi teeqr.bpi visualclx.bpi visualdbclx.bpi 
+      dsnapcrba.bpi dsnapcon.bpi bcbsmp.bpi vclie.bpi xmlrtl.bpi inet.bpi 
+      inetdbbde.bpi inetdbxpress.bpi inetdb.bpi nmfast.bpi webdsnap.bpi 
+      bcbie.bpi websnap.bpi soaprtl.bpi dclocx.bpi dbexpress.bpi dbxcds.bpi 
+      indy.bpi bcb2kaxserver.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="_DEBUG"/>
+    <SYSDEFINES value="NO_STRICT"/>
+    <MAINSOURCE value="Ventas2012.cpp"/>
+    <INCLUDEPATH value="&quot;$(BCB)\Abbrevia 3.05\source&quot;;&quot;E:\Archivos de programa\Borland\CBuilder6\Projects&quot;;&quot;C:\Documents and Settings\Fernando\Escritorio&quot;;&quot;C:\Archivos de programa\Borland\CBuilder6\Projects&quot;;E:\Trabajos\Ventas2006;$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="$(BCB)\Projects\Lib;&quot;$(BCB)\Abbrevia 3.05\source&quot;;&quot;E:\Archivos de programa\Borland\CBuilder6\Projects&quot;;&quot;C:\Documents and Settings\Fernando\Escritorio&quot;;&quot;C:\Archivos de programa\Borland\CBuilder6\Projects&quot;;E:\Trabajos\Ventas2006;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-src_suffix cpp -D_DEBUG -I&quot;$(BCB)\Abbrevia 3.05\source&quot; 
+      -I&quot;E:\Archivos de programa\Borland\CBuilder6\Projects&quot; 
+      -I&quot;C:\Documents and Settings\Fernando\Escritorio&quot; 
+      -I&quot;C:\Archivos de programa\Borland\CBuilder6\Projects&quot; 
+      -IE:\Trabajos\Ventas2006 -I$(BCB)\include -I$(BCB)\include\vcl -boa"/>
+    <CFLAG1 value="-Od -H=$(BCB)\lib\vcl60.csm -Hc -Vx -Ve -X- -r- -a8 -b- -k -y -v -vi- -c 
+      -tW -tWM"/>
+    <PFLAGS value="-$YD -$W -$O- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zd"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -Gn -v"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="Ventas2012.res" FORMNAME="" UNITNAME="Ventas2012.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Ventas2012.cpp" FORMNAME="" UNITNAME="Ventas2012" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="basedatos.cpp" FORMNAME="BD" UNITNAME="basedatos" CONTAINERID="CCompiler" DESIGNCLASS="TDataModule" LOCALCOMMAND=""/>
+      <FILE FILENAME="principal.cpp" FORMNAME="FormPrincipal" UNITNAME="principal" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="archivoclientes.cpp" FORMNAME="FormArchivoClientes" UNITNAME="archivoclientes" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="archivoproductos.cpp" FORMNAME="FormArchivoProductos" UNITNAME="archivoproductos" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="registrodocumentos.cpp" FORMNAME="FormRegistroDocumentos" UNITNAME="registrodocumentos" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="buscarclientes.cpp" FORMNAME="FormBuscarClientes" UNITNAME="buscarclientes" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="buscarproductos.cpp" FORMNAME="FormBuscarProductos" UNITNAME="buscarproductos" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="dialogocliente.cpp" FORMNAME="FormDialogoCliente" UNITNAME="dialogocliente" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="dialogoproducto.cpp" FORMNAME="FormDialogoProducto" UNITNAME="dialogoproducto" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="itemsclientes.cpp" FORMNAME="FormItemsClientes" UNITNAME="itemsclientes" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="itemsproductos.cpp" FORMNAME="FormItemsProductos" UNITNAME="itemsproductos" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="seleccionarcliente.cpp" FORMNAME="FormSeleccionarCliente" UNITNAME="seleccionarcliente" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="seleccionarproducto.cpp" FORMNAME="FormSeleccionarProducto" UNITNAME="seleccionarproducto" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="facturacion.cpp" FORMNAME="FormFacturacion" UNITNAME="facturacion" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="cuentacorriente.cpp" FORMNAME="FormCuentaCorriente" UNITNAME="cuentacorriente" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="configuracion.cpp" FORMNAME="FormConfiguracion" UNITNAME="configuracion" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="numeracion.cpp" FORMNAME="" UNITNAME="numeracion" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="saldos.cpp" FORMNAME="FormSaldos" UNITNAME="saldos" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Ventas2012.todo" FORMNAME="" UNITNAME="Ventas2012" CONTAINERID="ToDo" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="auxiliar.cpp" FORMNAME="" UNITNAME="auxiliar" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="registroventasdiario.cpp" FORMNAME="FormRegistroVentasDiario" UNITNAME="registroventasdiario" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="registroventasmensual.cpp" FORMNAME="FormRegistroVentasMensual" UNITNAME="registroventasmensual" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="registroventasanual.cpp" FORMNAME="FormRegistroVentasAnual" UNITNAME="registroventasanual" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="mensaje.cpp" FORMNAME="FormMensaje" UNITNAME="mensaje" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="impresion.cpp" FORMNAME="FormImpresion" UNITNAME="impresion" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Identificacion.cpp" FORMNAME="FormIdentificacion" UNITNAME="Identificacion" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="registroproductosdiario.cpp" FORMNAME="FormRegistroProductosDiario" UNITNAME="registroproductosdiario" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="registroproductosmensual.cpp" FORMNAME="FormRegistroProductosMensual" UNITNAME="registroproductosmensual" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="registroproductosanual.cpp" FORMNAME="FormRegistroProductosAnual" UNITNAME="registroproductosanual" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="registroproductosstock.cpp" FORMNAME="FormRegistroProductosStock" UNITNAME="registroproductosstock" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="registrokilogramosmensual.cpp" FORMNAME="FormRegistroKilogramosMensual" UNITNAME="registrokilogramosmensual" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="seleccionarperiodo.cpp" FORMNAME="FormSeleccionarPeriodo" UNITNAME="seleccionarperiodo" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AFIP.cpp" FORMNAME="" UNITNAME="AFIP" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="dialogoafip.cpp" FORMNAME="FormDialogoAFIP" UNITNAME="dialogoafip" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=0
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=11274
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[HistoryLists\hlIncludePath]
+Count=1
+Item0=E:\Archivos de programa\Borland\CBuilder6\Projects;C:\Documents and Settings\Fernando\Escritorio;C:\Archivos de programa\Borland\CBuilder6\Projects;E:\Trabajos\Ventas2006;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=1
+Item0=E:\Archivos de programa\Borland\CBuilder6\Projects;C:\Documents and Settings\Fernando\Escritorio;C:\Archivos de programa\Borland\CBuilder6\Projects;E:\Trabajos\Ventas2006;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=1
+Item0=_DEBUG
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl;C:\Archivos de programa\Borland\CBuilder6\Abbrevia 3.05\source\
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>
