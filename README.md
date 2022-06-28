@@ -26,7 +26,7 @@ Sistema de facturación, contabilidad, y control de stock
 ### Facturación
 * Notas de pedido
 * Remitos
-* Facturas, notas de crédito y débito en papel
+* Facturas, notas de crédito y débito en papel pre-impreso
 * Facturas, notas de crédito y débito electrónicas según resolución AFIP RG3749
 * Posibilidad de facturar productos sin cargo
 * Descuentos personalizados por cliente
