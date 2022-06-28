@@ -9,7 +9,6 @@ Sistema de facturación, contabilidad, y control de stock
 ![screenshot4](https://user-images.githubusercontent.com/75378876/176060415-ab73cd01-66db-42ea-8bc9-22f7808cf8e9.png)
 ![screenshot5](https://user-images.githubusercontent.com/75378876/176060417-8623779d-3c34-4a44-ac6f-379394636434.png)
 ![screenshot6](https://user-images.githubusercontent.com/75378876/176060418-f8394cfd-ba40-4cd1-bbdb-d6a5b5dc9d1a.png)
-![screenshot7](https://user-images.githubusercontent.com/75378876/176060419-6266515a-c201-4446-ad31-3f31800d612d.png)
 
 ## Características
 
