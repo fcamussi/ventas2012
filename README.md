@@ -1,4 +1,5 @@
 # Ventas2012
+
 Sistema de facturación, contabilidad, y control de stock
 
 ## Capturas:
