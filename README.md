@@ -2,7 +2,7 @@
 
 Sistema de facturación, contabilidad, y control de stock
 
-## Capturas:
+## Capturas
 
 ![screenshot1](https://user-images.githubusercontent.com/75378876/176060409-bb010301-6841-4b8b-b585-54d2eea3dd98.png)
 
